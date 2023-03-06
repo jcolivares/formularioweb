@@ -1,0 +1,5 @@
+input:focus{
+    font-size: 40pt;
+    background-color: yellow;
+    color: black;
+}

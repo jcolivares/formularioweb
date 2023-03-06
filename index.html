@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo de un formulario</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header id="encabezado">
@@ -13,13 +14,17 @@
     <main id="contenido">
         <h2>Formulario de contacto</h2>
         <form action="contacto.php" method="get">
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" placeholder="Pon tu nombre">
-            <br>
-            <label for="contra">Contraseña</label>
-            <input type="password" name="contra" id="">
-            <br>
-            <input type="button" value="Presioname">
+            <!--<fieldset onmouseover="alert('Pasando...')">-->
+            <fieldset>    
+                <legend>Login</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Pon tu nombre">
+                <br>
+                <label for="contra">Contraseña</label>
+                <input type="password" name="contra" id="">
+                <br>
+            </fieldset>
+            <input type="button" value="Presioname" onclick="javascript:alert('presioname')">
             <input type="submit" value="Envio">
             <input type="reset" value="Limpiar">
         </form>
