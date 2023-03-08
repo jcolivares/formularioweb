@@ -40,7 +40,27 @@
                 <textarea name="comentarios" id="" cols="30" rows="10" readonly>
                     No se modifica
                 </textarea>
+                <br />
+                 <!-- select#carrera>(option)*4 -->
+            <select name="carrera" id="carrera" disabled>
+                <option value="1">Maestria Electrica</option>
+                <option value="2" selected>Maestria Electronica</option>
+                <option value="3">Maestria en Sistemas</option>
+                <option value="4">Maestria en Metalurgia</option>
+            </select>
             </fieldset>
+           <fieldset>
+            <legend>CONACyT</legend>
+            <label for="beca">¿Tienes beca?</label>
+            <input type="checkbox" name="beca" checked>
+            <br>
+            <label for="edo_civil">Estado Civil:</label>
+            <input type="radio" name="edo_civil" checked value="1">Soltero
+            <input type="radio"name="edo_civil"value="2" >Casado
+            <input type="radio" name="edo_civil" value="3">Viudo
+            <input type="radio" name="edo_civil" value="4">Divorciado
+            <br>
+           </fieldset>
             <input type="button" value="Presioname" onclick="javascript:alert('presioname')">
             <input type="submit" value="Envio">
             <input type="reset" value="Limpiar">
