@@ -3,3 +3,7 @@ input:focus{
     background-color: yellow;
     color: black;
 }
+
+.rojo {
+    color: #f00;
+}

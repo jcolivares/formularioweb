@@ -22,10 +22,19 @@
             <fieldset>    
                 <legend>Login</legend>
                 <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" placeholder="Pon tu nombre">
+                <input type="text" name="nombre" placeholder="Pon tu nombre" required><span class="rojo">*</span>
                 <br>
                 <label for="contra">Contraseña</label>
                 <input type="password" name="contra" id="">
+                <br>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" name="email" required="required">
+                <br>
+                <label for="fecha">Fecha de nacimiento:</label>
+                <input type="date" name="fecha" id="">
+                <br>
+                <label for="semestre">Semestre:</label>
+                <input type="number" name="semestre" size="3" maxlength="3" max="12" min="1" step="2" value="2">
                 <br>
             </fieldset>
             <input type="button" value="Presioname" onclick="javascript:alert('presioname')">
