@@ -14,9 +14,15 @@
             <ruby>HT<rt>Hypertext</rt>M<rt>Markup</rt>L<rt>Language</rt></ruby>
             <rt>An abstract language for describing documents and applications
            </ruby>
+           <script>
+            function mostrar(){
+                mensaje = prompt("Dame tu nombre")
+                alert("Tu nombre es:"+mensaje)
+            }
+           </script>
     </header>
     <main id="contenido">
-        <h2 class="rojo centrar">Formulario de contacto</h2>
+        <h2 class="rojo centrar" onclick="mostrar()">Formulario de contacto</h2>
         <form action="contacto.php" method="get">
             <!--<fieldset onmouseover="alert('Pasando...')">-->
             <fieldset>    
