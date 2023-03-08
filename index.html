@@ -9,14 +9,14 @@
 </head>
 <body>
     <header id="encabezado">
-        <h1>Hola <br>mundo!!!</h1>
+        <h1 class="centrar">Hola <br>mundo!!!</h1>
         <ruby>
             <ruby>HT<rt>Hypertext</rt>M<rt>Markup</rt>L<rt>Language</rt></ruby>
             <rt>An abstract language for describing documents and applications
            </ruby>
     </header>
     <main id="contenido">
-        <h2>Formulario de contacto</h2>
+        <h2 class="rojo centrar">Formulario de contacto</h2>
         <form action="contacto.php" method="get">
             <!--<fieldset onmouseover="alert('Pasando...')">-->
             <fieldset>    
@@ -36,6 +36,10 @@
                 <label for="semestre">Semestre:</label>
                 <input type="number" name="semestre" size="3" maxlength="3" max="12" min="1" step="2" value="2">
                 <br>
+                <label for="comentarios">Comentarios:</label>
+                <textarea name="comentarios" id="" cols="30" rows="10" readonly>
+                    No se modifica
+                </textarea>
             </fieldset>
             <input type="button" value="Presioname" onclick="javascript:alert('presioname')">
             <input type="submit" value="Envio">

@@ -7,3 +7,7 @@ input:focus{
 .rojo {
     color: #f00;
 }
+
+.centrar {
+    text-align: center;
+}
