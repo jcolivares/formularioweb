@@ -1,3 +1,7 @@
+* {
+    font-size: 24pt;
+}
+
 input:focus{
     font-size: 40pt;
     background-color: yellow;
@@ -10,4 +14,34 @@ input:focus{
 
 .centrar {
     text-align: center;
+}
+
+.bordes_redondos {
+    /*border: 5px dotted #0F0;*/
+    border-color: rgb(0, 255, 0);
+    border-style: dashed;
+    border-width: 5px;
+}
+
+h1 {
+    /*
+    font-size: 36pt;
+    */
+    font-size: 2em;
+    background: lightblue;
+}
+
+.marco {
+    border: 1px solid red;
+}
+
+#titulo {
+    width: 30%;
+    /*padding: 20%*/
+    padding-left: 20%;
+    /*margin: 5% 10%;
+    margin: 5% 10% 20% 40%;*/
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 50%;
 }
